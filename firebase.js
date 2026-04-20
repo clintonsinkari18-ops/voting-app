@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDJCTKw8UAq4lZwI5PucDIB84PlH77GzaA",
   authDomain: "fir-voting-21661.firebaseapp.com",
@@ -9,7 +10,7 @@ const firebaseConfig = {
   messagingSenderId: "447540369173",
   appId: "1:447540369173:web:e31f6ad87e4a085b547b1c",
   measurementId: "G-L422EWKQ4X"
-};
+};;
 
 const app = initializeApp(firebaseConfig);
 
